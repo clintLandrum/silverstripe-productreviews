@@ -37,12 +37,6 @@ ToDo/Roadmap
 - Verified buyer
 - Improve admin Moderation to archive etc.
 
-DEVELOPERS:
------------
-* Clint Landrum - clint@adaircreative.com
-
-Pull requests always welcome. Follow Silverstripe coding guidelines.
-
 
 LICENSE (MIT):
 --------------
