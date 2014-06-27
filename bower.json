@@ -1,0 +1,19 @@
+{
+  "name": "silerstripe-shop-product-reviews",
+  "version": "0.0.1",
+  "authors": [
+    "Clint Landrum <clint@adaircreative.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-rating-input": "~0.2.4"
+  }
+}

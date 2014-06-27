@@ -1,0 +1,19 @@
+---
+Name: productreviews
+After: 'framework/*','cms/*'
+---
+Product:
+  moderated_comments: true
+  extensions:
+    - HasReviews
+    
+Product_Controller:
+  extensions:
+    - HasReviews_Controller
+    
+ProductReviewForm:
+  max_stars: 5 # The maximum rating allowed
+  star_rating_categories: # Only supports single words (no spaces)
+    - 'Quality'
+    - 'Value'
+    - 'Overall'

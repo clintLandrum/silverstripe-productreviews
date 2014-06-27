@@ -1,0 +1,48 @@
+/* Example sass to work from. */
+
+/* Product Reviews Layout */
+.product-review {
+	position:relative;
+	padding:10px 0;
+	border-bottom:1px solid #B1B1B1;
+	.review-title {
+		color:#333;
+	}
+}
+.star-rating {
+	float:left;
+	margin-right:20px;
+	.rating-label {
+		display:block;
+		padding-bottom:5px;
+	}
+	.glyphicon {
+		color:#FD9213;
+		font-size:16px;
+	}
+}
+.rating-comments {
+	padding-top:10px;
+}
+.review-vote {
+	position:absolute;
+	right:0px;
+	bottom:10px;
+	margin:0px 0px 0px 40px;
+}
+
+
+/* Product Review Form */
+#product-review-form {
+	.rating {
+		float:left;
+		margin-right:22px;
+	}
+	input.text, textarea {
+		margin-bottom:10px;
+	}
+	.rating-input {
+		font-size:18px;
+		color:#FD9213;
+	}
+}
